@@ -23,6 +23,8 @@ def add_signal_attribution(
             / baseline.abs().replace(0, pd.NA)
         ).fillna(0)
 
+        deviation = deviation.rename(f"{sensor}_deviation")
+
         result[f"{sensor}_deviation"] = deviation
         deviations.append(deviation)
 
