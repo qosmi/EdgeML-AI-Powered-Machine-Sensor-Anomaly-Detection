@@ -1,0 +1,1 @@
+"""EdgeML — AI-Powered Predictive Maintenance & Anomaly Detection"""
